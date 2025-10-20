@@ -1,0 +1,115 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.menu-p{
+    color: rgba(128, 128, 128, 0.658);
+    padding: 1rem 0rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+.colorfull-text{
+    color: rgb(206, 4, 4);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 50;
+    /* margin-bottom: 3rem; */
+}
+.menu-horizontal-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    list-style: none;
+}
+.menu-horizontal-list li{
+border-bottom: solid rgb(179, 1, 1) 2px;
+font-size: 16px;
+text-transform: capitalize;
+}
+.menu-horizontal-list a{
+    text-decoration: none;
+    color: black;
+}
+.colorfull-text span{
+    color: black;
+}
+.check-our{
+    margin: 0px  0px 5rem 0rem   ;
+}
+.menu-cards{
+    width: 90%;
+    margin: auto;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 6rem;
+padding: 2rem 0rem;
+}
+.menu_card img{
+width: 100%;
+padding: .5rem;
+box-sizing: border-box;
+}
+.menu_card h3{
+    margin-top: 1rem;
+    font-weight: 100;
+    font-size: 25px;
+    
+}
+.menu_card p{
+    text-wrap: nowrap;
+    padding: 1rem 0rem;
+    font-size: 16px;
+    color:rgba(128, 128, 128, 0.658);
+}
+.menu_card h4{
+    color:rgb(206, 4, 4) ;
+    font-size: 25px;
+}
+.testimonials-container{
+    background-color: whitesmoke;
+    padding: 3rem 0rem;
+}
+.testimonial{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.t-p{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.testimony{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+    width: 80%;
+    margin: auto;
+    border-left:solid red 3px ;
+}
+.testimony-image img{
+border-radius: 50%;
+width: 100%;
+}
+.testimony-txt h5{
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 16px;
+}
+.testimony-txt img{
+    width: 15px;
+}
+.testimony-txt{
+    margin: 2rem;
+}
+.testimony-txt p{
+    font-weight: 100;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
