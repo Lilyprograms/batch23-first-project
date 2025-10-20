@@ -14,7 +14,7 @@ body {
   background-color: white;
 }
 .navigation {
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding: 20px 0;
   display: flex;
@@ -41,13 +41,52 @@ body {
   color: #5e5e5e;
   padding: 8px 0;
 }
-.book_table a {
+.book_table a,
+.home_left a {
   padding: 10px 20px;
   border-radius: 20px;
   background-color: #d53535;
   color: white;
   font-size: 14px;
+  text-decoration: none;
 }
 .active {
   border-bottom: 2px solid #d53535;
+}
+.home_page {
+  background-color: #f2f2f2;
+  margin-top: 80px;
+}
+.home_content {
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.home_left,
+.home_right {
+  width: 50%;
+}
+.home_right img {
+  width: 85%;
+  min-width: 200px;
+}
+.home_left h2 {
+  font-size: 45px;
+}
+.home_left p {
+  font-size: 18px;
+  color: #7c7b7b;
+  margin: 20px 0;
+  line-height: 1.8;
+}
+.home_left a {
+  background-color: #ce1212;
+  padding: 15px 40px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 40px;
+  font-size: 16px;
 }
