@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+      font-family: "Amatic SC", sans-serif;
+}
+h2{
+    font-size: 80px;
+}
+.about-section{
+    width: 100%;
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+     margin: auto 50px;
+}
+.content-container{
+    position: relative;
+    top: 50px;
+}
+.image-container, .content-container{
+    width: 50%;
+}
+.image-container img{
+    width: 100%;
+    object-fit: cover;
+}
+.content-image img{
+    width: 400px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #ccc;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.sub-title{
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+     text-transform: uppercase;
+     margin-top: 20px;
+}
+.color-text{
+    color: tomato;
+}
+.heading{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: #a19d9d;
+    font-weight: lighter;
+}
+.content-container  li {
+ margin-bottom: 10px;
+list-style: none;
+font-family: sans-serif;
+font-size: 14px;
+}
+.text{
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.book{
+    text-align: center;
+    width: 560px;
+    border: 3px solid black;
+    margin-top: 30px;
+    height: 150px;
+}
+.book h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.book p{
+    color: red;
+    font-family: sans-serif;
+    font-size: 25px;
+}
