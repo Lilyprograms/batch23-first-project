@@ -60,17 +60,13 @@
 }
 
 .events-details .rates {
+    display: inline-block;
     font-size: 32px;
+    border-bottom: 2px solid #ce1212;
+    margin-bottom: 16px;
 }
 
 .events-details .description {
     font-size: 16px;
     line-height: 1.6rem;
-}
-
-.underline {
-    height: 2px;
-    width: 60px;
-    background-color: #fa3434;
-    margin-bottom: 15px;
 }
