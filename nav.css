@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 2px 2px 10px rgba(225, 225, 225, 0.5);
+  background-color: white;
+}
+.navigation {
+  width: 70%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+}
+.navigation a {
+  text-decoration: none;
+}
+.logo h1 {
+  font-size: 35px;
+  color: black;
+}
+.logo h1 span {
+  color: red;
+}
+.menu li a {
+  color: #5e5e5e;
+  padding: 8px 0;
+}
+.book_table a {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #d53535;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.active {
+  border-bottom: 2px solid #d53535;
+}
