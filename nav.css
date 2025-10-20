@@ -13,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.menu {
+.nav_menu {
   display: flex;
   gap: 30px;
   list-style: none;
@@ -29,7 +29,7 @@
 .logo h1 span {
   color: red;
 }
-.menu li a {
+.nav_menu li a {
   color: #5e5e5e;
   padding: 8px 0;
 }
@@ -43,4 +43,7 @@
 }
 .active {
   border-bottom: 2px solid #d53535;
+}
+.nav_top {
+  margin-top: 80px;
 }
