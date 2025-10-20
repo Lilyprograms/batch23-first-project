@@ -14,7 +14,7 @@
     text-transform: uppercase;
     padding-top: 2rem;
 }
-.menu h2{
+.colorfull-text{
     color: rgb(206, 4, 4);
     font-size: 40px;
     text-transform: uppercase;
@@ -37,7 +37,7 @@ text-transform: capitalize;
     text-decoration: none;
     color: black;
 }
-.check-our span{
+.colorfull-text span{
     color: black;
 }
 .check-our{
@@ -81,12 +81,17 @@ box-sizing: border-box;
     margin: auto;
     text-align: center;
 }
+.t-p{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
 .testimony{
     display: flex;
     text-align: left;
     gap: 2rem;
     width: 80%;
     margin: auto;
+    border-left:solid red 3px ;
 }
 .testimony-image img{
 border-radius: 50%;
@@ -102,4 +107,9 @@ width: 100%;
 }
 .testimony-txt{
     margin: 2rem;
+}
+.testimony-txt p{
+    font-weight: 100;
+    margin-top: 1rem;
+    text-transform: uppercase;
 }
