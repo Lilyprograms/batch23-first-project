@@ -18,11 +18,11 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 60px;
-     margin: auto 50px;
+     margin:  50px;
 }
 .content-container{
-    position: relative;
-    top: 50px;
+     position: relative;
+    top: -5px;
 }
 .image-container, .content-container{
     width: 50%;
@@ -58,6 +58,7 @@ h2{
     font-family: sans-serif;
     color: #a19d9d;
     font-weight: lighter;
+  
 }
 .content-container  li {
  margin-bottom: 10px;
